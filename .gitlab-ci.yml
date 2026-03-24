@@ -1,0 +1,14 @@
+image: node:20-alpine # Image légère pour aller vite
+
+pages:
+  stage: deploy
+  script:
+    - npm install
+    - npm run build
+    - rm -rf public # On supprime le dossier public existant pour éviter les conflits
+    - mv dist public # GitLab Pages affiche TOUJOURS le contenu du dossier nommé 'public'
+  artifacts:
+    paths:
+      - public
+  only:
+    - main # Ou 'master' selon le nom de ta branche
