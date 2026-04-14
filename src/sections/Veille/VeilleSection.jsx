@@ -25,8 +25,8 @@ const demarche = 'Dans un premier temps, j’ai mis en place des Google Alerts h
     'de mes Google Alerts et les synthétise sous forme de résumés concis, optimisant ainsi la veille informationnelle.';
 
 const sources = [
-    { label: "Nom de la source 1", url: "https://lien.com" },
-    { label: "Nom de la source 2", url: "https://lien.com" },
+    { label: "Lea", url: "https://www.instagram.com/becoming.lea/" },
+    { label: "resultat dune alerte Google", url: "https://blog.stephane-robert.info/docs/securiser/supply-chain/owasp-top-10/" },
 ];
 
 const VeilleSection = () => (

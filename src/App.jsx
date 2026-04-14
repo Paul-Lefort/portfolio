@@ -15,7 +15,6 @@ const Nav = () => {
         { name: "Veille",      href: "#veille" },
         { name: "Formation",   href: "#formation" },
         { name: "Compétences", href: "#compétences" },
-        { name: "Contact",     href: "#contact" },
     ];
 
     const menuVariants = {
